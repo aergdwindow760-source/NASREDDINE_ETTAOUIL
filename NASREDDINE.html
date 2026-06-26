@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contrôle N°3</title>
+    <style>
+
+        .navbar {
+            height: 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 40px;
+        }
+
+        .navbar div {
+            font-size: x-large;
+            font-weight: bold;
+        }
+
+        .navbar ul{
+            display: flex;
+            justify-content: flex-end;
+            gap: 60px;
+        }
+
+        
+        footer{
+            background-color: #ece8b3;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0px;
+        }
+
+        *{
+
+            margin: 0;
+        }
+
+        span{
+           display: flex;
+           justify-content: flex-start;
+           align-items: center;
+           padding: 10px;
+        }
+
+        ul li a:hover {
+            color: chocolate;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        @keyframes animation {
+            0% {background-color: chocolate;}
+            50% {background-color: coral;}
+            100% {background-color: #ece8b3;}
+        }
+        h2{
+            background-color: chocolate;
+            animation-name: animation;
+            animation-duration: 7s;
+        } 
+
+        h2{
+         opacity: 1;
+         animation: scaleIn 6s ease forwards;
+         animation-name: name;
+         animation-delay:0s;
+        }  
+
+   
+        @keyframes name{
+            from{
+                opacity:0;
+            }
+            to{
+                opacity:1;
+            }
+        }
+
+        
+        .namePage {
+            animation: slideDown 1s ease-out forwards;
+        }
+
+        
+        @keyframes slideDown{
+            from{
+                opacity:0;
+                transform:translateY(-100px);
+            }
+            to{
+                opacity:1;
+                transform:translateY(0);
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <header style="background-color: black;color: white;">
+        <nav class="navbar">
+            <div>NE</div>
+            <ul style="list-style: none;">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">About</a></li> 
+                <li><a href="#">Contact</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <main>
+        
+        <h1 style="text-align: center;color: rgb(192, 228, 28);padding: 40px;font-size:50px;">HELLO WORD !</h1>
+
+        <div class="namePage" style="border: 2px solid orange;margin:0px 30px">
+            <h2 style="font-family: Arial, Helvetica, sans-serif;font-size:58px;text-align: center;padding: 20px;">ETTAOUIL NASREDDINE</h2>
+        </div><br>
+        
+        <div style="text-align:center">
+            <h4 style="font-size:xx-large;">DEV_104</h4><br>
+            <p style="margin-bottom:50px;font-size: larger;padding-bottom: 18px;">POLE: DIA/Developpement_Digital</p>
+        </div>   
+        
+    </main>
+
+    <footer>
+        <p style="text-align: center;">Copyright © NASREDDINE.ETTAOUIL 2026 All rights reserved</p>
+    </footer>
+</body>
+</html>
