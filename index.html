@@ -6,7 +6,7 @@
     <title>Contrôle N°3</title>
     <style>
 
-        *{
+ *{
     margin:0;
     padding:0;
 }
@@ -104,47 +104,68 @@ footer{
 }
 
 
-@media screen and (max-width:768px){
+@media screen and (max-width: 768px) {
 
+    
     .container{
-        flex-direction:column;
+        flex-direction: column;
     }
 
     .navbar{
-        width:100%;
-        text-align:center;
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .navbar div{
+        font-size: 40px;
+        margin-bottom: 15px;
     }
 
     .navbar ul{
-        display:flex;
-        justify-content:center;
-        gap:20px;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .navbar li{
+        margin: 0;
+    }
+
+    
+    main{
+        padding: 20px;
     }
 
     .welcome{
-        font-size:30px !important;
-        padding:20px !important;
+        font-size: 40px;
+        padding: 20px 0;
     }
 
     .namePage{
-        width:90%;
-        margin:10px auto !important;
+        width: 95%;
+        margin: 15px auto;
     }
 
     .namePage h2{
-        font-size:25px !important;
-        line-height:30px;
-        padding:10px;
-        word-wrap:break-word;
+        font-size: 30px;
+        line-height: 38px;
+        padding: 15px;
+        overflow-wrap: break-word;
     }
 
     p{
-        font-size:16px !important;
+        font-size: 18px;
     }
 
     footer{
-        padding:15px;
-        height:auto;
+        height: auto;
+        padding: 15px;
+    }
+
+    footer p{
+        font-size: 14px;
+        text-align: center;
     }
 }
         
@@ -169,10 +190,10 @@ footer{
 
     <main>
         
-        <h2 class="welcome" style="text-align: center;color: rgb(192, 228, 28);">HELLO DEV_104 !</h2>
+        <h2 class="welcome">HELLO DEV_104 !</h2>
 
-        <div class="namePage" style="border: 2px solid orange;margin:0px 30px">
-            <h2 style="text-align: center;">ETTAOUIL NASREDDINE</h2>
+        <div class="namePage">
+            <h2>ETTAOUIL NASREDDINE</h2>
         </div><br>
         
         <div style="text-align:center">
