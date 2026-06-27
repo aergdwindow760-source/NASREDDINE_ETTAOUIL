@@ -6,13 +6,22 @@
     <title>Contrôle N°3</title>
     <style>
 
+        header{
+            background:black;
+            color:white;
+            height:80px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+
         .navbar {
-            height: 80px;
+            
             width:220px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 0 40px;
+            padding:20px;
             background:#222;
         }
 
@@ -21,20 +30,19 @@
             font-weight: bold;
         }
 
-        .navbar ul{
-            display: flex;
-            justify-content: flex-end;
-            gap: 60px;
+        .navbar li{
+            margin:20px 0;
         }
 
         
         footer{
-            background-color: #ece8b3;
-            height: 100px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 0px;
+            
+            height:60px;
+            background:#ece8b3;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
         }
 
         *{
@@ -64,13 +72,13 @@
             50% {background-color: coral;}
             100% {background-color: #ece8b3;}
         }
-        h2{
+        .namePage{
             background-color: chocolate;
             animation-name: animation;
             animation-duration: 7s;
         } 
 
-        h2{
+        .namePage{
          opacity: 1;
          animation: scaleIn 6s ease forwards;
          animation-name: name;
@@ -123,7 +131,7 @@
         margin-bottom: 10px;
     }
 
-    h1{
+    h2{
         font-size: 3rem !important;
         padding: 20px !important;
     }
@@ -132,7 +140,7 @@
         margin: 0 10px !important;
     }
 
-    h2{
+    .namePage{
         font-size: 2.5rem !important;
         padding: 15px !important;
         line-height: 1.2;
@@ -172,7 +180,7 @@
 
     <main>
         
-        <h2 style="text-align: center;color: rgb(192, 228, 28);padding: 40px;font-size:50px;">HELLO DEV_104 !</h2>
+        <h2 class="welcome" style="text-align: center;color: rgb(192, 228, 28);padding: 40px;font-size:50px;">HELLO DEV_104 !</h2>
 
         <div class="namePage" style="border: 2px solid orange;margin:0px 30px">
             <h2 style="font-family: Arial, Helvetica, sans-serif;font-size:58px;text-align: center;padding: 20px;">ETTAOUIL NASREDDINE</h2>
